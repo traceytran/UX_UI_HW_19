@@ -1,0 +1,255 @@
+body {
+  font-family: "Archivo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #4d5b65;
+}
+
+h1 {
+  font-family: "Archivo", sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.intro {
+  padding-left:20px;
+}
+
+h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 50px;
+  color: black;
+}
+
+h3 {
+  font-family: "Archivo", sans-serif;
+  font-size: 45px;
+  color:black;
+}
+
+h4 {
+  font-family: "Archivo", sans-serif;
+  font-size: 36px;
+  color:black;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.nav {
+  background-color: #06a893;
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  height: 100%;
+}
+
+.tabs a,
+h1 {
+  color: #000000;
+}
+
+#intro {
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom:100px;
+}
+
+.heroText {
+  width: 450px;
+  padding: 25px;
+}
+
+.button {
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.primary {
+  background-color: #2298ff;
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  width: 175px;
+}
+
+.secondary {
+  background-color: #fff;
+  color: #2298ff;
+  font-size: 16px;
+  font-weight: bold;
+  border: 3px solid #2298ff;
+  height: 50px;
+  width: 175px;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.CTA {
+  margin: 25px;
+}
+
+.primary .caseStudy {
+  left: auto;
+  margin-top: 0 auto;
+}
+
+.myWork {
+  background-color: #eaeff6;
+  padding:20px;
+  padding-bottom:100px;
+}
+
+.workGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap:50px;
+}
+
+.myWork img {
+  padding-left:25px;
+  padding-top:50px;
+}
+
+.blurb {
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle { 
+  width: 200px;
+  height: 200px;
+  background: #cbb9ff; 
+  -moz-border-radius: 100px; 
+  -webkit-border-radius: 100px; 
+  border-radius: 100px;
+}
+
+.mySkills {
+  padding:20px;
+}
+
+.skillsIcon {
+  width:100px;
+  padding:50px;
+}
+
+.skill1, .skill2, .skill3 {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+.skillName {
+  text-align: justify;
+}
+
+.skillText {
+  display: flex;
+  justify-content: space-between;
+  width:275px;
+}
+
+.footer {
+  background-color: #2298ff;
+  margin-top: 50px;
+  padding-top:20px;
+  padding-bottom:20px;
+  width: 100%;
+}
+
+#footerText {
+  margin-top: 10px;
+  padding-left:10px;
+}
+
+.social_media_icons {
+  height: 45px;
+  padding-left: 10px;
+}
+
+#copyright {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .logo {
+    height:50%;
+  }
+
+  .nav h2 {
+    font-size:30px;
+    padding:10px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size:40px;
+  }
+
+  h2 {
+    font-size:35px;
+  }
+
+  h3 {
+    font-size:25px;
+  }
+
+  p {
+    font-size:18px;
+  }
+  
+  .hero {
+    display:flex;
+    flex-direction:column-reverse;
+    height:75%;
+  }
+
+  .myWork {
+    padding:10px;
+    padding-bottom:0px;
+  }
+
+  .workGrid {
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "project"
+        "blurb"
+        "button"
+        "project";
+    padding-bottom:65px;
+  }
+
+  .project img {
+    width:85%;
+    align-content: center;
+  }
+
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
