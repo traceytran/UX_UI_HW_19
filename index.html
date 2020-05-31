@@ -3,37 +3,48 @@
   <head>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <title>Tracey of All Trades</title>
+    <title>Tracey Tran</title>
   </head>
   <body>
-    <div class="nav">
-      <img class="logo" src="./images/logo@2x.png" />
-     <h2>TRACEY OF ALL TRADES</h2>
-     <div class="tabs">
-        <a href="#">About</a>
-        <a href="#">Work</a>
-        <a href="#">Contact</a>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="topnav" id="topnav">
+  <img class="logo" src="./images/logo@2x.png" />
+ <h2 class="tagline">Tracey of All Trades</h2>
+ <div class="navBar">
+  <a class="tabs" id="about" class="active" href="#"><span>Home</span></a>
+  <a class="tabs" id="about" href="#"><span>About</span></a>
+  <a class="tabs" id="work" href="#"><span>Work</span></a>
+  <a class="tabs" id="contact" href="#"><span>Contact</span></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+</div>
+
     </div>
-    </div>
-    <h1 class="intro">I am Tracey Tran, a project manager with a lifelong love for music, travel, and boba.</h1>
     <section class="hero">
         <div class="heroText">
+          <h1 class="intro gradient padding"><span>Project Manager and UX Designer</span></h1>
             <p>
-              I discovered my love for music after taking my first piano lesson at 5 years old. Since then, music has become my way of expressing myself and finding community.
+              Leveraging my community-based roots, writing experience, and love for music and pop culture to enhance user experiences for digital content enthustiasts in the entertainment technology space.
             </p>
-            <button class="primary CTA">Download Resume</button><button class="secondary CTA">Learn More</button>
+            <button class="primary CTA"><a class="primaryLink" href="#">Download Resume</a></button><button class="secondary CTA"><a class="secondaryLink" href="#">Learn More</a></button>
         </div>
-        <div class="heroImg"><img width="450px" src="./images/2002.png"></div>
+        <div class="heroImg"><img class="heroImg" width="450px" src="./images/2002.png"></div>
     </section>
 
     <section class="myWork">
-      <h2>Selected Work</h2>
+      <h2 class="gradient padding"><span>Selected Work</span></h2>
       <div class="workGrid">
         <div class="project">
           <img class="project1" src="./images/Volunteer 1.png">
         </div>
         <div class="blurb">
-          <h3>Breakthrough San Juan Capistrano - Nonprofit Website Redesign</h3>
+          <h3>Breakthrough San Juan Capistrano</h3>
+          <h4>Nonprofit Website Redesign</h4>
           <p>I collaborated with a 3-person team to redesign the website for a nonprofit focused on increasing educational equity for underserved students in the Orange County, California area.
           </p><p>
             <b>Role</b>: UX/UI Designer
@@ -41,13 +52,14 @@
             <b>Timeline</b>: 2.5 Weeks
             <br>
             <b>Tools</b>: Figma, Miro, Trello</p>
-            <button class="primary caseStudy">View Case Study</button>
+            <button class="primary caseStudy"><a class="primaryLink" href="#">View Case Study</a></button>
           </div>
            <div class="project">
               <img class="project2" src="./images/Grants.png">
             </div>
         <div class="blurb">
-             <h3>Grants.Gov - Government Website Redesign</h3>
+             <h3>Grants.Gov</h3>
+             <h4>Government Website Redesign</h4>
              <p>I contributed to a 2-person team on redesigning U.S. federal Grants website. Our goal was to create an entrepreneurial, welcoming, and responsive experience for grantmakers, researchers, government entities, nonprofit professionals, and many more changemakers.
              </p><p>
              <b>Role</b>: UX/UI Designer
@@ -55,12 +67,12 @@
               <b>Timeline</b>: 4 Weeks
               <br>
               <b>Tools</b>: Adobe XD, InVision, Miro</p>
-              <button class="primary caseStudy">View Case Study</button>            
+              <button class="primary caseStudy"><a class="primaryLink" href="#">View Case Study</a></button>            
         </div>
       
     </section>
 
-    <section class="mySkills"><h2>Skills</h2>
+    <section class="mySkills"><h2 class="gradient padding"><span>Skills</span></h2>
       <div class="flexContainer">
         <div class="skill1">
           <div class="circle"><img class="skillsIcon" src="images/clipboard.png"></div>
@@ -93,7 +105,7 @@
       </section>
 
     <div class="footer">
-      <h2 id="footerText">Call Me, Beep Me, If You Wanna Reach Me!</h2>
+      <h2 class="footerText">Call Me, Beep Me, If You Wanna Reach Me!</h2>
       <a href="mailto:tracey@traceytran.com"><img
         id="email"
         class="social_media_icons"
@@ -117,5 +129,9 @@
       <a href="https://open.spotify.com/user/nartyecart?si=MDG31yAkQC2GmQARPfIKOg"><img id="spotify" class="social_media_icons" src="./images/spotify.png" /></a>
       <p id="copyright">(c) 2020 by Tracey Tran. All Rights Reserved.</p>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>  
   </body>
+
 </html>
