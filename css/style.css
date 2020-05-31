@@ -80,7 +80,6 @@ p {
 }
 
 
-
 .logo {
   height: 50%;
 }
@@ -152,6 +151,7 @@ p {
 }
 
 .primaryLink {
+  color:white;
   text-decoration:none;
 }
 
