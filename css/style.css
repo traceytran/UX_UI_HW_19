@@ -160,6 +160,7 @@ p {
   border:none;
 }
 
+
 .primary:hover {
   color:white;
   background-position: 100% 0;
@@ -173,6 +174,10 @@ p {
 
 .primaryLink {
   text-decoration:none;
+}
+
+.primaryLink:active {
+  color:white;
 }
 
 .primaryLink:visited {
