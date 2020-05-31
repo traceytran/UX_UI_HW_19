@@ -19,13 +19,13 @@ h2 {
 h3 {
   font-family: "Archivo", sans-serif;
   font-size: 40px;
-  color:black;
+  color: black;
 }
 
 h4 {
   font-family: "Archivo", sans-serif;
   font-size: 36px;
-  color:black;
+  color: black;
 }
 
 p {
@@ -34,7 +34,14 @@ p {
 }
 
 .gradient span {
-  background: linear-gradient(0deg, rgba(255,0,255,0) 0%, rgba(255,0,255,0) 16%, rgba(6,168,147,1) 16%, rgba(6,168,147,1) 41%, rgba(255,0,255,0) 41%);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 255, 0) 0%,
+    rgba(255, 0, 255, 0) 16%,
+    rgba(6, 168, 147, 1) 16%,
+    rgba(6, 168, 147, 1) 41%,
+    rgba(255, 0, 255, 0) 41%
+  );
 }
 
 .padding span {
@@ -46,14 +53,14 @@ p {
 .topnav {
   overflow: hidden;
   background-color: #06a893;
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .topnav a {
-  color:black;
+  color: black;
   padding: 5px;
   float: left;
   display: block;
@@ -64,7 +71,7 @@ p {
 }
 
 .topnav a:hover {
-  background-color: #EAEFF6;
+  background-color: #eaeff6;
   color: black;
 }
 
@@ -77,30 +84,38 @@ p {
   display: none;
 }
 
-
 .logo {
-  width:75px;
+  width: 75px;
 }
 
 .tabs {
-  padding:5px;
-  padding-right:50px;
+  padding: 5px;
+  padding-right: 50px;
   text-decoration: none;
 }
 
-.tabs a, h1 {
+.tabs a,
+h1 {
   color: #000000;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .tabs:visited {
-  color:black;
+  color: black;
 }
 
-#about:hover, #work:hover, #contact:hover {
-  background: linear-gradient(0deg, rgba(255,0,255,0) 0%, rgba(255,0,255,0) 16%, rgba(234,239,246,1) 16%, rgba(234,239,246,1) 41%, rgba(255,0,255,0) 41%);
+#about:hover,
+#work:hover,
+#contact:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 255, 0) 0%,
+    rgba(255, 0, 255, 0) 16%,
+    rgba(234, 239, 246, 1) 16%,
+    rgba(234, 239, 246, 1) 41%,
+    rgba(255, 0, 255, 0) 41%
+  );
 }
-
 
 #intro {
   text-align: center;
@@ -113,7 +128,7 @@ p {
 }
 
 .heroImg {
-  padding:20px;
+  padding: 20px;
   border-radius: 100px;
 }
 
@@ -133,28 +148,33 @@ p {
   font-size: 16px;
   height: 50px;
   width: 175px;
-  border:none;
+  border: none;
 }
 
-
 .primary:hover {
-  color:white;
+  color: white;
   background-position: 100% 0;
-  -moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-  background-image: linear-gradient(to right, #04685B, #299887, #3EB3A0, #5EDDC6);
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #04685b,
+    #299887,
+    #3eb3a0,
+    #5eddc6
+  );
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
 .primaryLink {
-  color:white;
-  text-decoration:none;
+  color: white;
+  text-decoration: none;
 }
 
 .primaryLink:active {
-  color:white;
+  color: white;
 }
 
 .primaryLink:visited {
@@ -175,22 +195,20 @@ p {
 
 .secondary:hover {
   background-color: white;
-  border: 3px solid #04685B;
-  color: #04685B;
+  border: 3px solid #04685b;
+  color: #04685b;
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
 .secondaryLink:hover {
   background-color: white;
-  color: #04685B !important; 
+  color: #04685b !important;
   font-weight: bolder;
 }
-
 
 .secondaryLink:visited {
   color: #2298ff;
 }
-
 
 .CTA {
   margin: 25px;
@@ -203,21 +221,21 @@ p {
 
 .myWork {
   background-color: #eaeff6;
-  width:100%;
-  padding:20px;
-  padding-bottom:100px;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 100px;
 }
 
 .workGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap:50px;
+  grid-gap: 50px;
 }
 
 .myWork img {
-  padding-left:25px;
-  padding-top:50px;
+  padding-left: 25px;
+  padding-top: 50px;
 }
 
 .blurb {
@@ -231,25 +249,27 @@ p {
   align-items: center;
 }
 
-.circle { 
+.circle {
   width: 200px;
   height: 200px;
-  background: #EAEFF6; 
-  -moz-border-radius: 100px; 
-  -webkit-border-radius: 100px; 
+  background: #eaeff6;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
   border-radius: 100px;
 }
 
 .mySkills {
-  padding:20px;
+  padding: 20px;
 }
 
 .skillsIcon {
-  width:100px;
-  padding:50px;
+  width: 100px;
+  padding: 50px;
 }
 
-.skill1, .skill2, .skill3 {
+.skill1,
+.skill2,
+.skill3 {
   margin-left: 0 auto;
   margin-right: 0 auto;
 }
@@ -261,15 +281,15 @@ p {
 .skillText {
   display: flex;
   justify-content: space-between;
-  width:275px;
+  width: 275px;
 }
 
 .footer {
   background-color: #06a893;
-  width:100%;
+  width: 100%;
   margin-top: 50px;
-  padding-top:20px;
-  padding-bottom:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
 }
 
@@ -290,56 +310,53 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-  
   .logo {
-    height:50%;
+    height: 50%;
   }
 
   .topnav h2 {
-    font-size:30px;
-    padding:10px;
+    font-size: 30px;
+    padding: 10px;
     text-align: center;
   }
 
   h1 {
-    font-size:40px;
+    font-size: 40px;
   }
 
   h2 {
-    font-size:35px;
+    font-size: 35px;
   }
 
   h3 {
-    font-size:30px;
+    font-size: 30px;
   }
 
   h4 {
-    font-size:25px;
+    font-size: 25px;
   }
 
   p {
-    font-size:18px;
+    font-size: 18px;
   }
-  
+
   .tagline {
-    display:none;
+    display: none;
   }
 
-  
   .logo {
-    width:40px;
+    width: 40px;
   }
-
 
   .hero {
-    display:flex;
-    flex-direction:column-reverse;
-    height:75%;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 65%;
   }
 
   .myWork {
-    padding:10px;
-    padding-bottom:0px;
+    padding: 10px;
+    padding-bottom: 0px;
   }
 
   .workGrid {
@@ -347,14 +364,14 @@ p {
     grid-template-rows: 350px 350px 350px;
     grid-template-columns: 1fr;
     grid-template-areas:
-        'project'
-        'blurb'
-        'primary CaseStudy';
+      "project"
+      "blurb"
+      "primary CaseStudy";
     padding-bottom: 65px;
   }
 
   .project img {
-    width:85%;
+    width: 85%;
     align-content: center;
   }
 
@@ -363,13 +380,17 @@ p {
     flex-direction: column;
   }
 
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
-}
+  }
 
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -380,9 +401,4 @@ p {
     display: block;
     text-align: left;
   }
-}
-
-
-
-
 }
